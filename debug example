@@ -1,0 +1,15 @@
+./cacheSim example1_trace.txt --mem-cyc 100 --bsize 3 --wr-alloc 1 --l1-size 4 --l1-assoc 1 --l1-cyc 1 --l2-size 6 --l2-assoc 0 --l2-cyc 5
+r 0x00000000 offset = 0 L1: setL1=0 tag1=0 L2:setL2=0 tag2=0
+w 0x00000004 offset = 4 L1: setL1=0 tag1=0 L2:setL2=0 tag2=0
+r 0x00100000 offset = 0 L1: setL1=0 tag1=0 L2:setL2=0 tag2=0
+w 0x00000000 offset = 0 L1: setL1=0 tag1=0 L2:setL2=0 tag2=0
+r 0x0000000C offset = 12 L1: setL1=0 tag1=0 L2:setL2=0 tag2=0
+r 0x00000010 offset = 16 L1: setL1=0 tag1=0 L2:setL2=0 tag2=0
+r 0x0000001C
+r 0x00000020
+r 0x0000002C
+r 0x00000030
+r 0x0000003C
+r 0x00000040
+r 0x00000008
+w 0x00000044

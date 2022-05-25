@@ -1,0 +1,1 @@
+To run the tests, place cacheSim in this folder and then run in cmd ./test.sh
